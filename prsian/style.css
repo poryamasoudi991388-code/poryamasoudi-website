@@ -1,0 +1,236 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: vazir;
+  background-color: #0d1117;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.header .nav {
+  background-color: #141a25;
+}
+.header .nav .nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+}
+.header .nav .nav-list .nav-link {
+  color: #fffff8;
+  display: block;
+  padding: 10px;
+  transition: all 0.3s;
+}
+.header .nav .nav-list .nav-link:hover {
+  background-color: blue;
+}
+/* main */
+.main .welcome-box {
+  box-shadow:
+    0px 0px 0px 0px transparent,
+    inset 0px 0px 0px 0px transparent;
+  width: 70%;
+  display: block;
+  background-color: #141a25;
+  margin: 0px auto;
+  margin-top: 70px;
+  margin-bottom: 80px;
+  padding: 70px 40px;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+.main .welcome-box:hover {
+  box-shadow:
+    0px 0px 100px blue,
+    inset 0px 0px 5px rgba(70, 70, 243, 0.548);
+}
+.main .welcome-box:active {
+  box-shadow:
+    0px 0px 150px blue,
+    inset 0px 0px 30px rgba(7, 7, 218, 0.548);
+}
+.main .welcome-box .title-welcome-box {
+  text-align: center;
+  margin-bottom: 10px;
+  color: blue;
+}
+.main .welcome-box .welcome-box-paragraph {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 390;
+  margin-bottom: 40px;
+  color: rgb(230, 226, 226);
+}
+.main .welcome-box .Light-mode-btn {
+  display: block;
+  margin: 0px auto;
+  padding: 3px 12px;
+  border: none;
+  font-family: vazir;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+}
+/* Expertise-container */
+.main .Expertise-container {
+  width: 70%;
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 60px;
+}
+.main .Expertise-container .Expertise-title {
+  margin-bottom: 20px;
+  color: #fffff8;
+}
+
+.main .Expertise-container .Languages-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  border-top: 1px solid rgba(82, 82, 83, 0.486);
+  padding-top: 35px;
+  height: 200px;
+}
+.main .Expertise-container .Languages-container .Languages-section {
+  width: 400px;
+  background-color: #141a25;
+  padding: 50px 1px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: all 0.3s;
+}
+.main .Expertise-container .Languages-container .Languages-section:hover {
+  border: 1px solid blue;
+  scale: 1.1;
+}
+.main .Expertise-container .Languages-container .Languages-section .lang-name {
+  text-align: center;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+.main
+  .Expertise-container
+  .Languages-container
+  .Languages-section
+  .lang-name.html {
+  color: #e34f26;
+}
+.main
+  .Expertise-container
+  .Languages-container
+  .Languages-section
+  .lang-name.css {
+  color: hsl(197, 75%, 34%);
+}
+.main
+  .Expertise-container
+  .Languages-container
+  .Languages-section
+  .lang-name.php {
+  color: hsl(335, 46%, 51%);
+}
+.main
+  .Expertise-container
+  .Languages-container
+  .Languages-section
+  .lang-name.js {
+  color: #f7df1e;
+}
+
+/* Skils */
+.main .skils-box {
+  display: block;
+  margin: 0px auto;
+  width: 70%;
+}
+.main .skils-box .title-skils-box {
+  margin-bottom: 20px;
+  color: #fffff8;
+}
+.main .skils-box .skils-container {
+  display: flex;
+  gap: 20px;
+  border-top: 1px solid rgba(82, 82, 83, 0.486);
+}
+.main .skils-box .skils-container .skils-section {
+  margin-top: 35px;
+  width: 100%;
+  background-color: #141a25;
+  height: 100%;
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid transparent;
+  transition: all 0.3s;
+}
+.main .skils-box .skils-container .skils-section:hover {
+  margin-top: 30px;
+  border-radius: 10px 10px 0px 0px;
+}
+.main .skils-box .skils-container .skils-section .logo-skils {
+  width: 50px;
+  display: block;
+  margin: 20px auto;
+}
+.main .skils-box .skils-container .skils-section .skils-section-info {
+  background-color: #0f121a;
+  padding: 10px;
+}
+.main
+  .skils-box
+  .skils-container
+  .skils-section
+  .skils-section-info
+  .title-info-skils {
+  color: rgb(8, 6, 146);
+}
+.main
+  .skils-box
+  .skils-container
+  .skils-section
+  .skils-section-info
+  .title-skils-section {
+  color: rgba(255, 255, 255, 0.651);
+  font-weight: 400;
+}
+.skils-box
+  .skils-container
+  .skils-section
+  .skils-section-info
+  .title-skils-section,
+.title-info-skils {
+  text-align: center;
+  margin-top: 5px;
+}
+/* start styls footer */
+.footer {
+  display: block;
+  margin: 0px auto;
+  width: 70%;
+  margin-top: 100px;
+  padding: 20px 8px 8px 8px;
+  border-top: 1px solid rgba(19, 26, 122, 0.459);
+}
+.footer .footer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: white;
+  font-weight: 300;
+}
+.footer .copy-right {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 200;
+}
